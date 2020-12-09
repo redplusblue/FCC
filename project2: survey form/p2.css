@@ -1,0 +1,121 @@
+#title{
+    text-align: center;
+    font-family: Times New Roman;
+    opacity: 69%;
+    animation-name: hell;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes hell{
+     0% {
+      color: #301934;
+    }
+     50% {
+          color: #dd6616;
+      }
+     100% {
+          color: #c4713a;
+      }
+  }
+#description {
+  text-align: center;
+  opacity: 88%;
+}
+#name-label {
+  margin-left: 38%;
+  margin-right: 62%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#name{
+  margin-left: 38%;
+  margin-right: 62%;
+  width: 400px;
+}
+#email-label {
+  margin-left: 38%;
+  margin-right: 62%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#email {
+  margin-left: 38%;
+  margin-right: 62%;
+  width: 400px;
+ }
+#number-label {
+  margin-left: 38%;
+  margin-right: 62%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#number {
+  margin-left: 38%;
+  margin-right: 62%;
+  width: 400px;
+ }
+#dropdown {
+  margin-left: 38%;
+  margin-right: 62%;
+  width: 417px;
+  }
+#radiotext{
+  margin-left: 38%;
+  margin-right: 47%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#radiomoney{
+  margin-left: 38%;
+ }  
+#checkboxtext {
+  margin-left: 38%;
+  margin-right: 47%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#checkbox{
+  margin-left: 38%;
+  margin-right: 47%;
+}
+#addninfo {
+  font-size: 10px;
+  margin-left:51%;
+}
+#b4textarea{
+  margin-left: 40%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.textarea{
+  margin-left: 40%;
+  width: 300px;
+}
+#b4submit{
+  margin-left: 40%;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#submit {
+  margin-left: 45%;
+  height: 40px;
+}
+#end{
+  font-size: 10px;
+  animation-name: hell;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#disclaimer{
+  color: red;
+  text-align: center;
+}
