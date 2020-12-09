@@ -1,0 +1,108 @@
+#title {
+  font-size: 50px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  opacity: 75%;
+}
+#img-div {
+text-align: center;
+background: #D3D3D3;
+padding: 10px;
+margin: 0;
+font-size: 20px;
+}
+#image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+max-width: 100%;
+height: auto;
+}
+#img-caption {
+font-family: Arial;
+font-size: 25px;
+}
+#tribute-info{
+text-align: center;
+font-size: 20px;
+font-family: Times New Roman;
+}
+#mainlist {
+margin-left: 210px;
+margin-right: 210px; 
+}
+#p1 {
+margin: 10px 5px;
+}
+#p2 {
+margin: 10px 5px;
+}
+#p3 {
+margin: 10px 5px;
+}
+#p4 {
+margin: 10px 5px;
+}
+#p5 {
+margin: 10px 5px;
+}
+#p6{
+margin: 10px 5px;
+}
+#p7 {
+margin: 10px 5px;
+}
+#p8 {
+margin: 10px 5px;
+}
+#p9 {
+margin: 10px 5px;
+}
+#p10 {
+margin: 10px 5px;
+}
+#p11 {
+margin: 10px 5px;
+}
+#p12 {
+margin: 10px 5px;
+}
+#p13 {
+margin: 10px 5px;
+}
+#p14 {
+margin: 10px 5px;
+}
+#p15 {
+margin: 10px 5px;
+}
+#p16 {
+margin: 10px 5px;
+}
+#p17 {
+margin: 10px 5px;
+}
+#p18 {
+margin: 10px 5px;
+}
+#p19 {
+margin: 10px 5px;
+}
+#p20 {
+margin: 10px 5px;
+}
+#p21 {
+margin: 10px 5px;
+}
+#gatesquote{
+margin-left: 9%;
+}
+#gates{
+margin-left: 87%; 
+}
+#tribute-link{
+margin-left: 43%;
+margin-right: 43%;
+font-size: 16px;
+}
