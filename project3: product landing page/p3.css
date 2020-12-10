@@ -1,0 +1,59 @@
+body{
+    background-color: #FFFDD0;
+    }
+  #header-img {
+    width: 7%;
+   }
+#header-img:hover {
+  width: 8%;
+}  
+#nameundericon {
+    margin-top: -4.6%;
+    margin-left: 7%;
+    font-size: 150%;
+    font-family: Times-new-roman;
+    opacity: 69%;
+    
+  }
+
+
+#nav-bar {
+  position: fixed;
+  top: 20%;
+  left: 70%;
+  }
+.nav-link {
+  font-family: times-new-roman;
+  opacity: 78%;
+  font-size: 110%;
+  font-color: blue;
+}
+.nav-link:hover {
+  color: Orange;
+  }
+.emailname{
+  text-align: center;
+  margin-top: 5%;
+  opacity: 75%;
+}
+#email {
+  margin-left: 40%;
+  width: 20%;
+  display: flex;
+}
+#submit {
+  margin-left: 47%;
+  margin-top: 1%;
+  opacity: 75%;
+}
+#submit:hover {
+  opacity: 100%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+#video {
+  margin-left: 34%;
+}
