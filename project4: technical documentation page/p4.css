@@ -1,3 +1,19 @@
-body{
-    color: blue;
+.body {
+    background-color: rgb(23, 23, 23);
+    color: lightgray;
 }
+
+#main-doc {
+   
+}
+
+.main-section {
+    
+}
+
+#headers1 {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
