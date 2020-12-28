@@ -4,7 +4,7 @@
 }
 
 #main-doc {
-   
+  
 }
 
 .main-section {
@@ -17,3 +17,50 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.anchors {
+    color: rgb(255, 0, 0);
+    text-decoration: none !important
+}
+.anchors :hover{
+    font-weight: bold; /*why does this not work */
+}
+.anchorsinline {
+    color: green;
+}
+.gencode {
+    font-size: 150%;
+}
+.codebox {
+  border: 1px solid green;
+  padding: 5px;
+  margin: 20px;
+}
+
+.gray {
+    color: gray;
+}
+.pink {
+    color: #FF007F;
+}
+.blue {
+    color: rgb(38, 38, 177);
+}
+.lightblue {
+    color: skyblue;
+}
+.green {
+    color: green;
+}
+.white {
+    color: white;
+}
+#src {
+
+}
+.endline {
+border-top: grey;
+border-top-style: dotted;
+}
+.end {
+  margin-left: 34%;
+}
