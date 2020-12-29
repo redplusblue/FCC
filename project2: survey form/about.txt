@@ -1,2 +1,2 @@
-FCC responsive web design project #2 
+FCC responsive web design project #2 [html/css]
 codepen: https://codepen.io/redplusblue/pen/GRjjGLg
