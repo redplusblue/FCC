@@ -1,15 +1,12 @@
+/* navbar */
 .body {
     background-color: rgb(23, 23, 23);
-    color: lightgray;
+    color: lightgray; /* d3d3d3 if doesnt work */
 }
 
-#main-doc {
-  
-}
+#main-doc {}
 
-.main-section {
-    
-}
+.main-section {}
 
 #headers1 {
     font-weight: bold;
@@ -21,15 +18,19 @@
     color: rgb(255, 0, 0);
     text-decoration: none !important
 }
+
 .anchors :hover{
     font-weight: bold; /*why does this not work */
 }
+
 .anchorsinline {
     color: green;
 }
+
 .gencode {
     font-size: 150%;
 }
+
 .codebox {
   border: 1px solid green;
   padding: 5px;
@@ -54,9 +55,11 @@
 .white {
     color: white;
 }
+
 #src {
 
 }
+
 .endline {
 border-top: grey;
 border-top-style: dotted;
