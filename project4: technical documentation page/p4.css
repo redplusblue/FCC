@@ -1,26 +1,87 @@
-/* navbar */
+
 .body {
     background-color: rgb(23, 23, 23);
     color: lightgray; /* d3d3d3 if doesnt work */
+    background-image: url(https://i.ibb.co/cJ5zR8m/Black-Folder.jpg);/*source:https://in.pinterest.com/pin/331718328798561708/*/
 }
 
-#main-doc {}
+#main-doc {
+    margin-left: 27%;
+}
 
 .main-section {}
 
-#headers1 {
+#navbar{
+    align-items: left;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 25%;
+    padding-top: 20px;
+    padding-left: 2px;
+    background-image: url(https://i.ibb.co/xhKysqH/tuxpi-com-1609277695.jpg);
+    height: 100%;
+}
+#navhead {
+    font-size: 125% !important;
+    font-weight: bold;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 1px;
+}
+.nav-link:hover {
+    font-size: 120% !important; 
+}
+.nav-link:focus {
+    color: red !important;
+}
+
+
+/* copy pasting formatting for headers throughout <main> for easier navigation */
+#h1 {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h2 {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h3 {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h4 {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h5 {
+    font-weight: bold;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+#h6 {
     font-weight: bold;
     font-size: 200%;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* general <main> rules */
 .anchors {
     color: rgb(255, 0, 0);
     text-decoration: none !important
 }
 
 .anchors :hover{
-    font-weight: bold; /*why does this not work */
+    /*font-weight: bold !important;*//* wanted to add this but causes conflict */ 
 }
 
 .anchorsinline {
@@ -37,6 +98,7 @@
   margin: 20px;
 }
 
+/* for the <code> elements (dk why i did this) */
 .gray {
     color: gray;
 }
@@ -56,6 +118,8 @@
     color: white;
 }
 
+/*line at the end is not at the footer as it conflicted with the alignment of footer text */ 
+
 #src {
 
 }
@@ -65,5 +129,14 @@ border-top: grey;
 border-top-style: dotted;
 }
 .end {
-  margin-left: 34%;
+  text-align: center;
 } 
+/*media query cause user story asked for one*/
+@media only screen and (max-width: 600px) {
+    .nav-link{
+        width: 20%;
+    }
+    .main-section {
+        width: 22%;
+    }
+  }
