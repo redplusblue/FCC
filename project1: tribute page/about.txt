@@ -1,2 +1,2 @@
-FCC responsive web design project #1 (Also my first html/css project)
+FCC responsive web design project #1 (Also my first html/css project) 
 codepen : https://codepen.io/redplusblue/pen/rNMWLGq
