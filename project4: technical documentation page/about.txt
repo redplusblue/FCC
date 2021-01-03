@@ -1,2 +1,4 @@
 FCC responsive web design project #4
 codepen: https://codepen.io/redplusblue/pen/JjRMJGq?editors=1100
+ /* this one has a little deviation from the guidelines 
+ as i misread a user story but the errors are only in the naming/hierarchy : the webpage works as required. */
